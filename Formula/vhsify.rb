@@ -1,19 +1,19 @@
 class Vhsify < Formula
   desc "CLI tool to apply VHS effects to images and videos"
   homepage "https://github.com/oborodice/vhsify"
-  version "0.1.3"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/oborodice/vhsify/releases/download/v0.1.3/vhsify-macos-aarch64.tar.gz"
-      sha256 "1b67d002d5d80e98fb9d74e00011040b292e07cc3f5e4896183b76167d66b667"
+      url "https://github.com/oborodice/vhsify/releases/download/v0.2.0/vhsify-macos-aarch64.tar.gz"
+      sha256 "2d3736ce8b61d26cc6ec427b4b4a651a88df4481af1485625a66298dd850b8df"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/oborodice/vhsify/releases/download/v0.1.3/vhsify-linux-x86_64.tar.gz"
-      sha256 "dd776b722314faede90c3c9c67c5033771cc4184d1184b45b271f60648ab5157"
+      url "https://github.com/oborodice/vhsify/releases/download/v0.2.0/vhsify-linux-x86_64.tar.gz"
+      sha256 "e44fbd1b6551499f804739408e12d545a99610bba13e531fda90bcf3d9a6a1d2"
     end
   end
 
